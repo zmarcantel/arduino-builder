@@ -34,7 +34,7 @@ import (
 
 	"github.com/zmarcantel/arduino-builder/constants"
 	"github.com/zmarcantel/arduino-builder/types"
-	"github.com/arduino/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
 )
 
 func ResolveLibrary(ctx *types.Context, header string) *libraries.Library {

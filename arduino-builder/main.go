@@ -48,7 +48,7 @@ import (
 	jsonrpc "github.com/zmarcantel/arduino-builder/grpc"
 	"github.com/zmarcantel/arduino-builder/i18n"
 	"github.com/zmarcantel/arduino-builder/types"
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
 	paths "github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
 	"github.com/go-errors/errors"

@@ -5,11 +5,11 @@ import (
 	"strings"
 
 	"github.com/zmarcantel/arduino-builder/i18n"
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesresolver"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores/packagemanager"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesmanager"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesresolver"
 	paths "github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
 )

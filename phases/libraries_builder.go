@@ -38,7 +38,7 @@ import (
 	"github.com/zmarcantel/arduino-builder/i18n"
 	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/zmarcantel/arduino-builder/utils"
-	"github.com/arduino/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
 	"github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-properties-orderedmap"
 )

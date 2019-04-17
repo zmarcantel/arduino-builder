@@ -34,7 +34,7 @@ import (
 
 	"github.com/zmarcantel/arduino-builder/constants"
 	"github.com/zmarcantel/arduino-builder/types"
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
 )
 
 type WarnAboutPlatformRewrites struct{}

@@ -38,7 +38,7 @@ import (
 
 	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/zmarcantel/arduino-builder/utils"
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
 	properties "github.com/arduino/go-properties-orderedmap"
 	timeutils "github.com/arduino/go-timeutils"
 )

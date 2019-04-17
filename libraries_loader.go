@@ -34,9 +34,9 @@ import (
 
 	"github.com/zmarcantel/arduino-builder/i18n"
 	"github.com/zmarcantel/arduino-builder/types"
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesresolver"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesmanager"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesresolver"
 )
 
 type LibrariesLoader struct{}

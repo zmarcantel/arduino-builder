@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
 	"github.com/arduino/go-paths-helper"
 
 	builder "github.com/zmarcantel/arduino-builder"
