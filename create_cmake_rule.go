@@ -37,11 +37,11 @@ import (
 
 	properties "github.com/arduino/go-properties-orderedmap"
 
-	"github.com/arduino/arduino-builder/builder_utils"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/types"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder/builder_utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/utils"
 )
 
 var VALID_EXPORT_EXTENSIONS = map[string]bool{".h": true, ".c": true, ".hpp": true, ".hh": true, ".cpp": true, ".s": true, ".a": true, ".properties": true}

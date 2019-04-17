@@ -1,4 +1,4 @@
-## Arduino Builder [![Build Status](https://travis-ci.org/arduino/arduino-builder.svg?branch=master)](https://travis-ci.org/arduino/arduino-builder)
+## Arduino Builder [![Build Status](https://travis-ci.org/zmarcantel/arduino-builder.svg?branch=master)](https://travis-ci.org/zmarcantel/arduino-builder)
 
 A command line tool for compiling Arduino sketches
 
@@ -51,7 +51,7 @@ You can save this file locally and use it instead of specifying `-hardware`, `-t
 
 ### Using it for continuously verify your libraries or cores
 
-See [Doing continuous integration with arduino builder](https://github.com/arduino/arduino-builder/wiki/Doing-continuous-integration-with-arduino-builder/).
+See [Doing continuous integration with arduino builder](https://github.com/zmarcantel/arduino-builder/wiki/Doing-continuous-integration-with-arduino-builder/).
 
 ### Building from source
 
@@ -70,8 +70,8 @@ go get google.golang.org/grpc
 go get github.com/golang/protobuf/proto
 go get golang.org/x/net/context
 go get github.com/fsnotify/fsnotify
-go get github.com/arduino/arduino-builder
-go build github.com/arduino/arduino-builder/arduino-builder
+go get github.com/zmarcantel/arduino-builder
+go build github.com/zmarcantel/arduino-builder/arduino-builder
 ```
 
 ### TDD
@@ -79,7 +79,7 @@ go build github.com/arduino/arduino-builder/arduino-builder
 In order to run the tests, type:
 
 ```
-go test github.com/arduino/arduino-builder/...
+go test github.com/zmarcantel/arduino-builder/...
 ```
 
 This runs all tests, showing any failures and a summary at the end.
@@ -93,13 +93,13 @@ To run a single test, use the -run option, which accepts a regular
 expression (see also go help testflag).
 
 ```
-go test github.com/arduino/arduino-builder/... -run 'TestBuilderEmptySketch'
-go test github.com/arduino/arduino-builder/... -run 'TestPrototypesAdder.*'
+go test github.com/zmarcantel/arduino-builder/... -run 'TestBuilderEmptySketch'
+go test github.com/zmarcantel/arduino-builder/... -run 'TestPrototypesAdder.*'
 ```
 
 In jenkins, use
 ```
-go test -v github.com/arduino/arduino-builder/... | bin/go-junit-report > report.xml
+go test -v github.com/zmarcantel/arduino-builder/... | bin/go-junit-report > report.xml
 ```
 
 The first time you run the tests, some needed files (toolchains and
@@ -116,4 +116,4 @@ increasing the timeout might be needed as well.
 
 Copyright (C) 2017 Arduino AG and contributors
 
-See https://www.arduino.cc/ and https://github.com/arduino/arduino-builder/graphs/contributors
+See https://www.arduino.cc/ and https://github.com/zmarcantel/arduino-builder/graphs/contributors

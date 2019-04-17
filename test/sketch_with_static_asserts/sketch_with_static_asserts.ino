@@ -1,4 +1,4 @@
-// https://github.com/arduino/arduino-builder/issues/68
+// https://github.com/zmarcantel/arduino-builder/issues/68
 
 const int a = 10;
 const int b = 20;

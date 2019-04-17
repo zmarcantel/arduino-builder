@@ -30,8 +30,8 @@
 package builder
 
 import (
-	"github.com/arduino/arduino-builder/ctags"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/ctags"
+	"github.com/zmarcantel/arduino-builder/types"
 )
 
 type AddMissingBuildPropertiesFromParentPlatformTxtFiles struct{}

@@ -34,8 +34,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arduino/arduino-builder/builder_utils"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/builder_utils"
+	"github.com/zmarcantel/arduino-builder/types"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )

@@ -34,9 +34,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/arduino/arduino-builder"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/arduino/arduino-cli/arduino/libraries"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"

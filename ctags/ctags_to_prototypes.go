@@ -32,7 +32,7 @@ package ctags
 import (
 	"strings"
 
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/types"
 )
 
 func (p *CTagsParser) GeneratePrototypes() ([]*types.Prototype, int) {

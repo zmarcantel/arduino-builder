@@ -37,10 +37,10 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 
-	"github.com/arduino/arduino-builder"
-	"github.com/arduino/arduino-builder/builder_utils"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder"
+	"github.com/zmarcantel/arduino-builder/builder_utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/stretchr/testify/require"
 )
 

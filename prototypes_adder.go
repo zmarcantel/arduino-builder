@@ -31,9 +31,9 @@ package builder
 
 import (
 	"fmt"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/types"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/utils"
 	"strconv"
 	"strings"
 )

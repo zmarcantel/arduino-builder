@@ -1,6 +1,6 @@
 package i18n
 
-import "github.com/arduino/arduino-builder/constants"
+import "github.com/zmarcantel/arduino-builder/constants"
 import "github.com/go-errors/errors"
 import "os"
 

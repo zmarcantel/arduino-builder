@@ -37,10 +37,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/types"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/utils"
 	"github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-properties-orderedmap"
 )

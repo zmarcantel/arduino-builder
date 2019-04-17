@@ -4,7 +4,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/arduino/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/i18n"
 	"github.com/arduino/arduino-cli/arduino/cores"
 	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
 	"github.com/arduino/arduino-cli/arduino/libraries"

@@ -32,8 +32,8 @@ package builder
 import (
 	"os"
 
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/arduino/arduino-cli/arduino/libraries"
 	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
 	"github.com/arduino/arduino-cli/arduino/libraries/librariesresolver"

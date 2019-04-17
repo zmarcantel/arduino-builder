@@ -35,9 +35,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-builder"
-	"github.com/arduino/arduino-builder/types"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder"
+	"github.com/zmarcantel/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/utils"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )

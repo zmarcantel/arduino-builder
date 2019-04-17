@@ -33,11 +33,11 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	"github.com/arduino/arduino-builder/builder_utils"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/gohasissues"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/builder_utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/gohasissues"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/types"
 	properties "github.com/arduino/go-properties-orderedmap"
 )
 

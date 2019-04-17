@@ -43,11 +43,11 @@ import (
 	"strings"
 	"syscall"
 
-	builder "github.com/arduino/arduino-builder"
-	"github.com/arduino/arduino-builder/gohasissues"
-	jsonrpc "github.com/arduino/arduino-builder/grpc"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/types"
+	builder "github.com/zmarcantel/arduino-builder"
+	"github.com/zmarcantel/arduino-builder/gohasissues"
+	jsonrpc "github.com/zmarcantel/arduino-builder/grpc"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/types"
 	"github.com/arduino/arduino-cli/arduino/cores"
 	paths "github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
@@ -200,7 +200,7 @@ func main() {
 	if *versionFlag {
 		fmt.Println("Arduino Builder " + VERSION)
 		fmt.Println("Copyright (C) 2015 Arduino LLC and contributors")
-		fmt.Println("See https://www.arduino.cc/ and https://github.com/arduino/arduino-builder/graphs/contributors")
+		fmt.Println("See https://www.arduino.cc/ and https://github.com/zmarcantel/arduino-builder/graphs/contributors")
 		fmt.Println("This is free software; see the source for copying conditions.  There is NO")
 		fmt.Println("warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.")
 		return

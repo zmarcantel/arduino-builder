@@ -35,12 +35,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/arduino/arduino-builder/builder_utils"
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/phases"
-	"github.com/arduino/arduino-builder/types"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder/builder_utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/phases"
+	"github.com/zmarcantel/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/utils"
 )
 
 var MAIN_FILE_VALID_EXTENSIONS = map[string]bool{".ino": true, ".pde": true}

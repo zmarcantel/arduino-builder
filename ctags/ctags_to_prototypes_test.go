@@ -34,7 +34,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/arduino/arduino-builder/types"
+	"github.com/zmarcantel/arduino-builder/types"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )
@@ -221,7 +221,7 @@ func TestCTagsToPrototypesFunctionPointersNoIndirect(t *testing.T) {
 }
 
 func TestCTagsRunnerSketchWithClassFunction(t *testing.T) {
-	prototypes, _ := producePrototypes(t, "TestCTagsRunnerSketchWithClassFunction.txt", "/home/megabug/Workspace/arduino-builder/src/github.com/arduino/arduino-builder/test/sketch_class_function/sketch_class_function.ino")
+	prototypes, _ := producePrototypes(t, "TestCTagsRunnerSketchWithClassFunction.txt", "/home/megabug/Workspace/arduino-builder/src/github.com/zmarcantel/arduino-builder/test/sketch_class_function/sketch_class_function.ino")
 
 	require.Equal(t, 3, len(prototypes))
 	require.Equal(t, "void setup();", prototypes[0].Prototype)

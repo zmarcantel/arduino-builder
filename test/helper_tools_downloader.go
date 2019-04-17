@@ -42,10 +42,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-builder/constants"
-	"github.com/arduino/arduino-builder/gohasissues"
-	"github.com/arduino/arduino-builder/i18n"
-	"github.com/arduino/arduino-builder/utils"
+	"github.com/zmarcantel/arduino-builder/constants"
+	"github.com/zmarcantel/arduino-builder/gohasissues"
+	"github.com/zmarcantel/arduino-builder/i18n"
+	"github.com/zmarcantel/arduino-builder/utils"
 	"github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-properties-orderedmap"
 	"github.com/go-errors/errors"
@@ -160,9 +160,9 @@ func patchFiles(t *testing.T) {
 
 	for _, file := range files {
 		if file.Ext() == ".patch" {
-			panic("Patching for downloaded tools is not available! (see https://github.com/arduino/arduino-builder/issues/147)")
+			panic("Patching for downloaded tools is not available! (see https://github.com/zmarcantel/arduino-builder/issues/147)")
 			// XXX: find an alternative to x/codereview/patch
-			// https://github.com/arduino/arduino-builder/issues/147
+			// https://github.com/zmarcantel/arduino-builder/issues/147
 			/*
 				data, err := ioutil.ReadFile(Abs(t, filepath.Join(PATCHES_FOLDER, file.Name())))
 				NoError(t, err)
