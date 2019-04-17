@@ -59,7 +59,9 @@ func (s *LibrariesLoader) Run(ctx *types.Context) error {
 	actualPlatform := ctx.ActualPlatform
 	platform := ctx.TargetPlatform
 	if actualPlatform != platform {
-		panic("actual: %+v", actualPlatform)
+		if actualPlatform == nil {
+			panic("nil actual platform")
+		}
 		lm.AddPlatformReleaseLibrariesDir(actualPlatform, libraries.ReferencedPlatformBuiltIn)
 	}
 	lm.AddPlatformReleaseLibrariesDir(platform, libraries.PlatformBuiltIn)
