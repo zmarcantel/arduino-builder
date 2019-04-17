@@ -46,6 +46,9 @@ func (s *TargetBoardResolver) Run(ctx *types.Context) error {
 	if err != nil {
 		return i18n.ErrorfWithLogger(logger, "Error resolving FQBN: {0}", err)
 	}
+	if actualPlatform == nil {
+		return i18n.ErrorfWithLogger(logger, "Could not find/detect platform: {0}", err)
+	}
 
 	targetBoard.Properties = buildProperties // FIXME....
 
